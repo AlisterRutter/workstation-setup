@@ -9,8 +9,7 @@
 . install-sourcetree.sh;
 . install-google-drive.sh;
 . install-hipchat.sh;
-. install-mkdocs.sh;
 . install-office.sh;
-. install-portal.sh;
 . install-sequel-pro.sh;
+. install-xscope.sh;
 . set-mac-defaults.sh
