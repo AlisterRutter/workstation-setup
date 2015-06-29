@@ -15,6 +15,14 @@ To install everything in a logical order:
 
 `xcode-select --install`
 
+2. Create an SSH key (you MUST add a passphrase)
+
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+`ssh-add`
+`ssh-add -L`
+
+Copy the output of the last command into your github settings for your user account under "SSH keys".
+
 2. Clone the install scripts
 
 `git clone git@github.com:Equiem/workstation-setup.git`
