@@ -33,7 +33,7 @@ Copy the output of the last command into your github settings for your user acco
 
 `cd workstation-setup`
 
-`install-all.sh`
+`. install-all.sh`
 
 If something fails, sorry, you will probably have to re-run individual scripts and do some debugging.
 
