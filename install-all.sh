@@ -1,6 +1,7 @@
+# This must be done in the right order.
 . install-xcode.sh;
-. install-git.sh;
 . install-homebrew.sh;
+. install-git.sh;
 . install-ruby.sh;
 # Everything below this point can be installed in any order
 . install-browsers.sh;
@@ -11,4 +12,5 @@
 . install-mkdocs.sh;
 . install-office.sh;
 . install-portal.sh;
+. install-sequel-pro.sh;
 . set-mac-defaults.sh
