@@ -18,7 +18,9 @@ To install everything in a logical order:
 2. Create an SSH key (you MUST add a passphrase)
 
 `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+
 `ssh-add`
+
 `ssh-add -L`
 
 Copy the output of the last command into your github settings for your user account under "SSH keys".
