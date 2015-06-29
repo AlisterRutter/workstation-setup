@@ -9,12 +9,10 @@ Prerequisites:
 - Administrator account, for sudo requests
 - Setup an SSH Key and attach it to your Github account
 
-Recommended order to run scripts in:
+To install everything in a logical order:
 
-`install-homebrew.sh`
+`install-all.sh`
 
-`install-git.sh`
+If something fails, sorry, you will probably have to re-run individual scripts and do some debugging.
 
-`install-sublime.sh`
-
-`install-hipchat.sh`
+Please make sure to push fixes back upstream!
