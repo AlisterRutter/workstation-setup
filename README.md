@@ -21,8 +21,6 @@ To install everything in a logical order:
 
 `xcode-select --install`
 
-Copy the output of the last command into your github settings for your user account under "SSH keys".
-
 2. Clone the install scripts
 
 `git clone https://github.com/Equiem/workstation-setup.git`
@@ -45,9 +43,9 @@ Dev boxes need an extra script run
 
 `ssh-add -L`
 
-2. Add your SSH key to your github account
+Copy the output of the last command into your github settings for your user account under "SSH keys".
 
-3. Run the following script
+2. Run the following script
 
 `. install-dev.sh`
 
