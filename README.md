@@ -32,6 +32,7 @@ Copy the output of the last command into your github settings for your user acco
 3. Run the install scripts (the `cd` is important!)
 
 `cd workstation-setup`
+
 `install-all.sh`
 
 If something fails, sorry, you will probably have to re-run individual scripts and do some debugging.
