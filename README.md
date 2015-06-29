@@ -1,5 +1,5 @@
 # workstation-setup
-Lite scripts to setup a workstation
+Lite scripts to setup a workstation.
 
 ## Important security warning
 
@@ -13,7 +13,6 @@ Prerequisites:
 
 - Working internet connection
 - Administrator account, for sudo requests
-- Setup an SSH Key and attach it to your Github account
 
 To install everything in a logical order:
 
