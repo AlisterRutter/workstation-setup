@@ -1,0 +1,14 @@
+{
+  "name": "equiem-equistation",
+  "version": "0.1.0",
+  "author": "equiem",
+  "summary": "Setup Equiem Workstations.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/Equiem/workstation-setup/",
+  "project_page": "https://github.com/Equiem/workstation-setup/",
+  "issues_url": "https://github.com/Equiem/workstation-setup/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
