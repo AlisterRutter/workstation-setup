@@ -29,13 +29,17 @@
 #
 # === Authors
 #
-# Author Name <author@domain.com>
+# Melchi Salins <sysadmin@equiem.com.au>
 #
 # === Copyright
 #
-# Copyright 2015 Your name here, unless otherwise noted.
+# Copyright 2015 Equiem, unless otherwise noted.
 #
 class equistation {
-
+  class { 'equistation::install': }
+  # class { 'equistation::config': }
+  notify { 'Installed all the required software':
+    require => Class['equistation::install']
+  }
 
 }
