@@ -12,4 +12,5 @@
 . install-office.sh;
 . install-sequel-pro.sh;
 . install-xscope.sh;
-. set-mac-defaults.sh
+. install-tableau.sh;
+. set-mac-defaults.sh;
