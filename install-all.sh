@@ -12,5 +12,8 @@
 . install-office.sh;
 . install-sequel-pro.sh;
 . install-xscope.sh;
+# MAMP is used to house dbs for people running reports.
+. install-mamp.sh;
+# Tableau is used to create visualisations of data.
 . install-tableau.sh;
 . set-mac-defaults.sh;
