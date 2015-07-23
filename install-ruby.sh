@@ -26,3 +26,4 @@ fi
 
 # Specific to local portal dev
 rvm install ruby-2.0.0-p643
+gem install rake -v 10.4.2
