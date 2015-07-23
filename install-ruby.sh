@@ -23,3 +23,6 @@ if ! command -v rbenv >/dev/null; then
     fi
   fi
 fi
+
+# Specific to local portal dev
+rvm install ruby-2.0.0-p643
