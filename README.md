@@ -1,4 +1,5 @@
 # workstation-setup
+
 Lite scripts to setup a workstation.
 
 ## Important security warning
@@ -16,19 +17,24 @@ Prerequisites:
 
 To install everything in a logical order:
 
-1. Install command line tools (makes git work)
+1.  Install command line tools (makes git work)
 
-`xcode-select --install`
+    ```
+    xcode-select --install
+    ```
 
-2. Clone the install scripts
+2.  Clone the install scripts
 
-`git clone https://github.com/Equiem/workstation-setup.git`
+    ```
+    git clone https://github.com/Equiem/workstation-setup.git
+    ```
 
-3. Run the install scripts (the `cd` is important!)
+3.  Run the install scripts (the `cd` is important!)
 
-`cd workstation-setup`
-
-`. install-all.sh`
+    ```
+    cd workstation-setup
+    ./install-all.sh
+    ```
 
 ## Dev boxes
 
@@ -46,7 +52,7 @@ Copy the output of the last command into your github settings for your user acco
 
 2. Run the following script
 
-`. install-dev.sh`
+`./install-dev.sh`
 
 If something fails, sorry, you will probably have to re-run individual scripts and do some debugging.
 

@@ -1,1 +1,3 @@
-brew cask install microsoft-office;
+#!/usr/bin/env bash
+
+brew cask install --appdir=/Applications microsoft-office;

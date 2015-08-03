@@ -1,5 +1,7 @@
-brew cask install google-chrome;
+#!/usr/bin/env bash
 
-brew cask install firefox;
+brew cask install --appdir=/Applications google-chrome;
 
-brew cask install flash-player;
+brew cask install --appdir=/Applications firefox;
+
+brew cask install --appdir=/Applications flash-player;

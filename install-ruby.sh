@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Borrowed from https://github.com/monfresh/laptop/blob/master/mac
 # I'll give it back when I'm done with it, i swear!
 fancy_echo() {
@@ -22,8 +24,7 @@ if ! command -v rbenv >/dev/null; then
       fancy_echo "Already using the latest version of RVM. Skipping..."
     fi
   fi
-fi
 
-# Specific to local portal dev
-rvm install ruby-2.0.0-p643
-gem install rake -v 10.4.2
+  # Specific to local portal dev
+  rvm install ruby-2.0.0
+fi

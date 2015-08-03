@@ -1,1 +1,3 @@
-brew cask install tableau;
+#!/usr/bin/env bash
+
+brew cask install --appdir=/Applications tableau;

@@ -1,3 +1,5 @@
-brew cask install sourcetree;
+#!/usr/bin/env bash
 
-brew cask install p4merge;
+brew cask install --appdir=/Applications sourcetree;
+
+brew cask install --appdir=/Applications p4merge;
