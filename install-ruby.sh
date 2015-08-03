@@ -24,6 +24,5 @@ if ! command -v rbenv >/dev/null; then
   fi
 
   # Specific to local portal dev
-  rvm install ruby-2.0.0-p643
-  gem install rake -v 10.4.2
+  rvm install ruby-2.0.0
 fi
