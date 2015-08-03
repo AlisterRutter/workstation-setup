@@ -1,4 +1,4 @@
-brew cask install google-drive;
+brew cask install --appdir=/Applications google-drive;
 
 cp ./user.launchkeep.googledrive.plist ~/Library/LaunchAgents/launchkeep.googledrive.plist;
 

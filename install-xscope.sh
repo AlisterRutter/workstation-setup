@@ -1,1 +1,1 @@
-brew cask install xscope;
+brew cask install --appdir=/Applications xscope;

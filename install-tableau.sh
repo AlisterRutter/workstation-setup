@@ -1,1 +1,1 @@
-brew cask install tableau;
+brew cask install --appdir=/Applications tableau;

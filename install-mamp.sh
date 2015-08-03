@@ -1,1 +1,1 @@
-brew cask install mamp;
+brew cask install --appdir=/Applications mamp;

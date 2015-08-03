@@ -1,1 +1,1 @@
-brew cask install hipchat;
+brew cask install --appdir=/Applications hipchat;

@@ -1,1 +1,1 @@
-brew cask install microsoft-office;
+brew cask install --appdir=/Applications microsoft-office;

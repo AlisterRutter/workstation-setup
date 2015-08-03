@@ -1,1 +1,1 @@
-brew cask install sequel-pro;
+brew cask install --appdir=/Applications sequel-pro;
