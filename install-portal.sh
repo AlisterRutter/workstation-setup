@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 brew cask install --appdir=/Applications virtualbox vagrant;
 
 vagrant plugin install vagrant-cachier vagrant-hostmanager;

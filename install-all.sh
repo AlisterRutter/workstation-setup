@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # This must be done in the right order.
 . install-xcode.sh;
 . install-homebrew.sh;

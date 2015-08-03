@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Borrowed from https://github.com/monfresh/laptop/blob/master/mac
 # I'll give it back when I'm done with it, i swear!
 fancy_echo() {

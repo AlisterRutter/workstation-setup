@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 defaults write -g com.apple.mouse.scaling -float 3.0;
 
 defaults write com.apple.finder AppleShowAllFiles YES;
