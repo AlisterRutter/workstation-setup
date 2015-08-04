@@ -19,7 +19,7 @@ if ! command -v rbenv >/dev/null; then
     latest_version="$(curl -s https://raw.githubusercontent.com/wayneeseguin/rvm/stable/VERSION)"
     if [ "$local_version" != "$latest_version" ]; then
       fancy_echo 'Upgrading RVM...'
-      rvm get stable --auto-dotfiles --autolibs=enable --with-gems="bundler"
+      rvm get stable --auto-dotfiles --autolibs=enable
     else
       fancy_echo "Already using the latest version of RVM. Skipping..."
     fi

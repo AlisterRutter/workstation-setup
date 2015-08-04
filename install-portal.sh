@@ -11,6 +11,6 @@ brew cask install --appdir=/Applications java;
 
 . install-ruby.sh;
 
-gem install bundler rake:10.4.2;
+gem install bundler:1.10.5 rake:10.4.2;
 
 git clone git@github.com:Equiem/THEPORTAL.git $HOME/theportal;
