@@ -15,6 +15,16 @@ Prerequisites:
 - Working internet connection
 - Administrator account, for sudo requests
 
+### Remote install everything
+
+Remote install only supports running the 'install-all' script.
+
+```
+$ curl -sSL https://raw.githubusercontent.com/Equiem/workstation-setup/master/remote-install.sh | bash
+```
+
+### Local install
+
 To install everything in a logical order:
 
 1.  Install command line tools (makes git work)
