@@ -2,6 +2,7 @@
 
 # This must be done in the right order.
 . install-xcode.sh;
+. install-wget.sh;
 . install-homebrew.sh;
 . install-git.sh;
 . install-ruby.sh;
