@@ -20,7 +20,7 @@ Prerequisites:
 Remote install only supports running the 'install-all' script.
 
 ```
-$ curl -sSL https://raw.githubusercontent.com/Equiem/workstation-setup/master/remote-install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Equiem/workstation-setup/master/remote-install.sh | bash
 ```
 
 ### Local install
