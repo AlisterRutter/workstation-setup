@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-sudo easy_install pip;
-
-sudo pip install mkdocs;
+brew install python;
+pip install mkdocs;
 
 git clone git@github.com:Equiem/devdocs.git ~/devdocs;
