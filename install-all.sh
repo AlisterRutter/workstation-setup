@@ -19,4 +19,6 @@
 . install-mamp.sh;
 # Tableau is used to create visualisations of data.
 . install-tableau.sh;
+# Disk inventory X helps us debug disk space issues.
+. install-disk-inventory-x.sh;
 . set-mac-defaults.sh;
