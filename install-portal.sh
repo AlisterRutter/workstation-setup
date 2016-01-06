@@ -2,8 +2,6 @@
 
 brew cask install --appdir=/Applications virtualbox vagrant;
 
-brew cask install --appdir=/Applications bittorrent-sync;
-
 vagrant plugin install vagrant-cachier vagrant-hostmanager vagrant-vbox-snapshot;
 
 brew install git git-flow node homebrew/php/php55 homebrew/php/php55-mcrypt;
