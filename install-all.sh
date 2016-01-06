@@ -51,5 +51,8 @@ sudo -v;
 # Disk inventory X helps us debug disk space issues.
 
 sudo -v;
+. install-btsync;
+
+sudo -v;
 . install-disk-inventory-x.sh;
 . set-mac-defaults.sh;
