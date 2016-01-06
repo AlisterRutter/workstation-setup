@@ -51,7 +51,7 @@ sudo -v;
 # Disk inventory X helps us debug disk space issues.
 
 sudo -v;
-. install-btsync;
+. install-btsync.sh;
 
 sudo -v;
 . install-disk-inventory-x.sh;
