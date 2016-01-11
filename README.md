@@ -23,6 +23,12 @@ Remote install only supports running the 'install-all' script.
 curl -sSL https://raw.githubusercontent.com/Equiem/workstation-setup/master/remote-install.sh | bash
 ```
 
+OR (short URL version):
+
+````
+curl -sSL https://goo.gl/ij3q9f
+````
+
 ### Local install
 
 To install everything in a logical order:
