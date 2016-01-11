@@ -26,7 +26,7 @@ curl -sSL https://raw.githubusercontent.com/Equiem/workstation-setup/master/remo
 OR (short URL version):
 
 ````
-curl -sSL https://goo.gl/ij3q9f
+curl -sSL https://goo.gl/ij3q9f | bash
 ````
 
 ### Local install
