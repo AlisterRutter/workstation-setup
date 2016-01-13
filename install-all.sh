@@ -30,7 +30,7 @@ sudo -v;
 . install-google-drive.sh;
 
 sudo -v;
-. install-hipchat.sh;
+. install-flowdock.sh;
 
 sudo -v;
 . install-office.sh;
