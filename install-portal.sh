@@ -4,8 +4,8 @@ brew cask install --appdir=/Applications virtualbox vagrant;
 
 vagrant plugin install vagrant-cachier vagrant-hostmanager vagrant-vbox-snapshot;
 
-brew install git node homebrew/php/php55 homebrew/php/php55-mcrypt ngrok;
-sudo npm install -g bless
+brew install git node homebrew/php/php56 homebrew/php/php56-mcrypt ngrok;
+sudo npm install -g bless@3.x
 
 . install-ruby.sh;
 
