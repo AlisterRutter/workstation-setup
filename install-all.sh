@@ -5,10 +5,10 @@ sudo -v;
 . install-xcode.sh;
 
 sudo -v;
-. install-wget.sh;
+. install-homebrew.sh;
 
 sudo -v;
-. install-homebrew.sh;
+. install-wget.sh;
 
 sudo -v;
 . install-git.sh;
@@ -40,19 +40,21 @@ sudo -v;
 
 sudo -v;
 . install-xscope.sh;
-# MAMP is used to house dbs for people running reports.
 
+# MAMP is used to house dbs for people running reports.
 sudo -v;
 . install-mamp.sh;
-# Tableau is used to create visualisations of data.
 
+# Tableau is used to create visualisations of data.
 sudo -v;
 . install-tableau.sh;
-# Disk inventory X helps us debug disk space issues.
 
 sudo -v;
 . install-btsync.sh;
 
+# Disk inventory X helps us debug disk space issues.
 sudo -v;
 . install-disk-inventory-x.sh;
+
+sudo -v;
 . set-mac-defaults.sh;
