@@ -8,3 +8,4 @@ cp ./Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 
 brew cask install --appdir=/Applications atom;
 apm install parinfer;
 apm install git-plus;
+apm install terminal-panel;
