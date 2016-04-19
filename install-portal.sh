@@ -9,7 +9,7 @@ sudo npm install -g bless@3.x
 
 . install-ruby.sh;
 
-gem install bundler rake:10.4.2;
+gem install bundler rake:11.1.2;
 
 git clone git@github.com:Equiem/THEPORTAL.git $HOME/theportal;
 
