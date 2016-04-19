@@ -26,5 +26,5 @@ if ! command -v rbenv >/dev/null; then
   fi
 
   # Specific to local portal dev
-  rvm install ruby-2.0.0
+  rvm install ruby-2.3.0
 fi
